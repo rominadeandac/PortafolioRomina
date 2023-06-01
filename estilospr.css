@@ -1,0 +1,711 @@
+body{
+	background-color: black;
+	/*margin:0 auto;*/
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Readex Pro', sans-serif;
+	font-family: 'Satisfy', cursive;
+	margin:0 0;
+	padding:0 0;
+	
+}
+
+#container{
+	background-size: 100%;
+	margin: 0 0;
+	padding:0 0;
+}
+
+
+.mainh{
+	margin: 0;
+	padding: 0;
+}
+
+/*HEADER*/
+#header img{
+	width:100%;
+}
+
+
+/*MENU*/
+#menuh {
+	margin-top:50px;
+	/*margin-bottom:50px;*/
+  	text-align: center;
+
+}
+
+#menuh .container-fluid {
+  	display: flex;
+  	justify-content: center;
+	
+}
+
+.container-fluid{
+	margin: 0 0;
+	padding: 0 0;
+}
+
+#menuh ul.nav {
+  display: inline-block;
+}
+
+#menuh ul.nav li {
+  display: inline-block;
+}
+
+#menuh ul.nav li a {
+  display: inline-block;
+  margin: 0px 30px;
+}
+
+#menuh a{
+
+	/*margin-left:0;
+	margin-right:0;*/
+	color:white;
+	font-size:15px;
+	font-family: 'Montserrat', sans-serif;	
+}
+
+#menuh a:hover{
+	color:yellow;
+}
+
+
+
+
+/*CONOCEME*/
+#abajo {
+  background-image: url('gradient.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#conoceme {
+  display: flex;
+	margin-top:100px;
+}
+
+.fotoromina {
+  flex-basis: 25%;
+}
+
+.textoromina {
+  flex-basis: 75%;
+}
+
+
+.fotoromina img{
+	width:100%;
+	margin-left:60px;
+	margin-right:60px;
+}
+
+
+.textoromina h1{
+	color:#C89DFF;
+	font-size:100px;
+	font-family: 'Satisfy', cursive;
+	margin-left:150px;
+	margin-top:60px;
+	
+}
+
+.textoromina h2{
+	color:white;
+	font-size:15px;
+	font-family: 'Montserrat', sans-serif;	
+	margin-left:150px;
+	margin-right:150px;
+}
+
+.textoromina h3{
+	color:white;
+	font-size:15px;
+	font-family: 'Montserrat', sans-serif;	
+	margin-left:150px;
+	margin-right:150px;
+}
+
+
+
+/*BOTON*/
+#botonCV button{
+	margin-left:150px;
+  display:inline-block;
+  margin-top:50px;
+  margin-bottom:80px;
+  padding: 20px 50px; /*tamano del boton*/
+  background-color: white;
+  color:black;
+  border-radius: 80px; /*esquinas redondeadas*/
+  font-size: 18px;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+#botonCV button:hover{
+  background-color:#E38DF9;
+  color:black;
+}
+
+
+
+
+
+
+
+/*PÁGINA DISEÑO WEB*/
+#headerdw img{
+	width:100%;
+}
+
+
+#disenomac{
+	 display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+#disenomac h1{
+	margin-top:100px;
+	color:white;
+	font-size:25px;
+	font-family: 'Montserrat', sans-serif;	
+}
+
+#disenomac h2{
+	width:50%;
+	color:white;
+	font-size:15px;
+	font-family: 'Montserrat', sans-serif;	
+	
+}
+
+#disenomac img{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+
+/*PÁGINA AMAZON*/
+
+#amazon{
+	 display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+#amazon h1{
+	margin-top:100px;
+	color:white;
+	font-size:25px;
+	font-family: 'Montserrat', sans-serif;	
+}
+
+#amazon h2{
+	width:50%;
+	color:white;
+	font-size:15px;
+	font-family: 'Montserrat', sans-serif;	
+	
+}
+
+#amazon img{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+
+
+
+/*PÁGINA LOGO MADE BY ROMS*/
+
+#logo{
+	 display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+#logo h1{
+	margin-top:100px;
+	color:white;
+	font-size:25px;
+	font-family: 'Montserrat', sans-serif;	
+}
+
+#logo h2{
+	width:50%;
+	color:white;
+	font-size:15px;
+	font-family: 'Montserrat', sans-serif;	
+	
+}
+
+#logo img{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+#logoimg  {
+  transition: transform 0.3s ease;
+}
+
+#logoimg:hover {
+  transform: scale(1.1); /* Ajusta el factor de escala según tus necesidades */
+}
+
+
+/*BOTON logo made by roms*/
+
+#botonLogo2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+#botonLogo2 button {
+ 
+	padding: 20px 50px; /*tamano del boton*/
+ background-color: white;
+  color:black;
+border-radius: 80px; /*esquinas redondeadas*/
+ font-size: 18px;
+font-family: 'Montserrat', sans-serif;
+	margin-bottom:50px;
+}
+
+#botonLogo2 button:hover{
+  background-color:#E38DF9;
+  color:black;
+}
+
+
+
+/*PÁGINA LOGO HFC*/
+
+#hard{
+	 display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+#hard h1{
+	margin-top:100px;
+	color:white;
+	font-size:25px;
+	font-family: 'Montserrat', sans-serif;	
+}
+
+#hard h2{
+	width:50%;
+	color:white;
+	font-size:15px;
+	font-family: 'Montserrat', sans-serif;	
+	
+}
+
+#hard img{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+#hardimg  {
+  transition: transform 0.3s ease;
+}
+
+#hardimg:hover {
+  transform: scale(1.1); /* Ajusta el factor de escala según tus necesidades */
+}
+
+/*BOTON hfc*/
+
+#regresarLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+#regresarLogo button {
+ 
+	padding: 20px 50px; /*tamano del boton*/
+ background-color: white;
+  color:black;
+border-radius: 80px; /*esquinas redondeadas*/
+ font-size: 18px;
+font-family: 'Montserrat', sans-serif;
+	margin-bottom:50px;
+}
+
+#regresarLogo button:hover{
+  background-color:#E38DF9;
+  color:black;
+}
+
+/*PÁGINA TOY BOX*/
+
+#toybox{
+	 display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+#toybox h1{
+	margin-top:100px;
+	color:white;
+	font-size:25px;
+	font-family: 'Montserrat', sans-serif;	
+}
+
+#toybox h2{
+	width:50%;
+	color:white;
+	font-size:15px;
+	font-family: 'Montserrat', sans-serif;	
+	
+}
+
+#toyboximg  {
+  transition: transform 0.3s ease;
+}
+
+#toyboximg:hover {
+  transform: scale(1.1); /* Ajusta el factor de escala según tus necesidades */
+}
+
+
+
+
+#toybox img{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+
+
+/*BOTON branding*/
+
+#botonBranding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+#botonBranding button {
+ 
+	padding: 20px 50px; /*tamano del boton*/
+ background-color: white;
+  color:black;
+border-radius: 80px; /*esquinas redondeadas*/
+ font-size: 18px;
+font-family: 'Montserrat', sans-serif;
+	margin-bottom:50px;
+}
+
+#botonBranding button:hover{
+  background-color:#E38DF9;
+  color:black;
+}
+
+
+/*PÁGINA ORBE*/
+
+#orbe{
+	 display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+#orbe h1{
+	margin-top:100px;
+	color:white;
+	font-size:25px;
+	font-family: 'Montserrat', sans-serif;	
+}
+
+#orbe h2{
+	width:50%;
+	color:white;
+	font-size:15px;
+	font-family: 'Montserrat', sans-serif;	
+	margin-bottom:20px;
+	
+}
+
+#orbeimg  {
+  transition: transform 0.3s ease;
+}
+
+#orbeimg:hover {
+  transform: scale(1.1); /* Ajusta el factor de escala según tus necesidades */
+}
+
+
+
+
+#orbe img{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+
+/*BOTON branding 2*/
+
+#regresarB1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+#regresarB1 button {
+ 
+	padding: 20px 50px; /*tamano del boton*/
+ background-color: white;
+  color:black;
+border-radius: 80px; /*esquinas redondeadas*/
+ font-size: 18px;
+font-family: 'Montserrat', sans-serif;
+	margin-bottom:50px;
+}
+
+#regresarB1 button:hover{
+  background-color:#E38DF9;
+  color:black;
+}
+
+
+/*BOTON Siguiente AMAZON*/
+
+#botonUIUX {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+}
+
+#botonUIUX button {
+ 
+	padding: 20px 50px; 
+ background-color: white;
+  color:black;
+border-radius: 80px; 
+ font-size: 18px;
+font-family: 'Montserrat', sans-serif;
+	margin-bottom:50px;
+}
+
+#botonUIUX button:hover{
+  background-color:#E38DF9;
+  color:black;
+}
+
+
+
+/*PÁGINA PORTAL*/
+
+#portal{
+	 display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+#portal h1{
+	margin-top:100px;
+	color:white;
+	font-size:25px;
+	font-family: 'Montserrat', sans-serif;	
+}
+
+#portal h2{
+	width:50%;
+	color:white;
+	font-size:15px;
+	font-family: 'Montserrat', sans-serif;	
+	
+}
+
+#portal img{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+/*BOTON Regresar a AMAZON*/
+
+#regresarUIUX {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+#regresarUIUX button {
+ 
+	padding: 20px 50px; /*tamano del boton*/
+ background-color: white;
+  color:black;
+border-radius: 80px; /*esquinas redondeadas*/
+ font-size: 18px;
+font-family: 'Montserrat', sans-serif;
+	margin-bottom:50px;
+}
+
+#regresarUIUX button:hover{
+  background-color:#E38DF9;
+  color:black;
+}
+
+
+
+/*PÁGINA ANIMACION 2D*/
+
+#animacion{
+	 display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+#animacion h1{
+	margin-top:100px;
+	color:white;
+	font-size:25px;
+	font-family: 'Montserrat', sans-serif;	
+	
+}
+
+#animacion h2{
+	width:50%;
+	color:white;
+	font-size:15px;
+	font-family: 'Montserrat', sans-serif;	
+	margin-bottom:20px;
+	
+}
+
+#animacion img{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+
+
+#qrvideo{
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#qrvideo img{
+	margin-top:30px;
+	margin-bottom:30px;
+	height: 250px;
+}
+/*BOTON ver video animacion*/
+
+#botonVideo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+}
+
+#botonVideo button {
+ 
+	padding: 20px 50px; 
+ background-color: white;
+  color:black;
+border-radius: 80px; 
+ font-size: 18px;
+font-family: 'Montserrat', sans-serif;
+	margin-bottom:50px;
+}
+
+#botonVideo button:hover{
+  background-color:#E38DF9;
+  color:black;
+}
+
+
+
+/*parte de home intereses habilidades*/
+#features{
+	display:flex;
+	justify-content: center;
+	
+}
+#features ul {
+   
+ text-align:center;
+	margin-top: 0px;
+}
+#features ul li {
+    width: 300px;
+    padding-top: 0px;
+    float: left;
+    text-align: center;
+	margin-top:10px;
+	 list-style-type: none;
+	margin-right:50px;
+	margin-left:50px;
+	margin-bottom:30px;
+	
+}
+#features ul li h4{
+	
+	color:skyblue;
+	font-size:25px;
+	font-family: 'Montserrat', sans-serif;	
+	
+	
+}
+#features ul li p{
+	
+	color:white;
+	font-size:15px;
+	font-family: 'Montserrat', sans-serif;	
+	margin-bottom:5px;
+}
+
+
+
+.feature-1  {
+  transition: transform 0.3s ease;
+}
+
+.feature-1:hover {
+  transform: scale(1.1); 
+}
+
+.feature-2  {
+  transition: transform 0.3s ease;
+}
+
+.feature-2:hover {
+  transform: scale(1.1); 
+}
+
+.feature-3  {
+  transition: transform 0.3s ease;
+}
+
+.feature-3:hover {
+  transform: scale(1.1); 
+}
